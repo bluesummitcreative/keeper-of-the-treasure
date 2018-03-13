@@ -1,3 +1,4 @@
+<?php get_template_part('inc/site-wide-cta'); ?>
 	<footer class="footer">
 		<div class="container-fluid">
 			<div class="container">
