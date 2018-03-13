@@ -28,7 +28,7 @@
 			array(
 				'name' => __( 'Footer Widget 1'),
 				'id' => 'footer-widget-1',
-				'before_widget' => '<div class="col-sm-3><div class="footer-widget">',
+				'before_widget' => '<div class="col-sm-3"><div class="footer-widget">',
 				'after_widget' => '</div></div>',
 				'before_title' => '<h4>',
 				'after_title' => '</h4>',
