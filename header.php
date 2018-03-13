@@ -12,8 +12,15 @@
 		<div class="container-fluid top-bar text-right bg-primary">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-12">
-						<?php echo get_theme_mod( 'top_bar_text' ); ?>
+					<div class="col-sm-6">
+						<p><?php bloginfo('description'); ?></p>
+						
+					</div>
+					<div class="col-sm-6">
+						<ul class="list-inline">
+							<li class="list-inline-item"><a href="#">Catspaw Cushions</a></li>
+							<li class="list-inline-item"><a href="#">Yoga</a></li>
+						</ul>
 					</div>
 				</div>
 			</div>
