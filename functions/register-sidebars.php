@@ -60,6 +60,7 @@
 		register_sidebar( 
 			array(
 				'name' => __( 'Footer Widget 4'),
+				'id' => 'footer-widget-4',
 				'before_widget' => '<div class="col-sm-3"><div class="footer-widget">',
 				'after_widget' => '</div></div>',
 				'before_title' => '<h4>',
