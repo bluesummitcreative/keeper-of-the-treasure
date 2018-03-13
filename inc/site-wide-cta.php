@@ -9,6 +9,8 @@
 	</div>
 </div>
 
+<?php else: ?>
+
 <div class="container-fluid container-padding site-wide-cta text-center">
 	<div class="container">
 		<div class="row">
