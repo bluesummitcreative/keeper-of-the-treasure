@@ -28,8 +28,8 @@
 			array(
 				'name' => __( 'Footer Widget 1'),
 				'id' => 'footer-widget-1',
-				'before_widget' => '<div class="footer-widget">',
-				'after_widget' => '</div>',
+				'before_widget' => '<div class="col-sm-3><div class="footer-widget">',
+				'after_widget' => '</div></div>',
 				'before_title' => '<h4>',
 				'after_title' => '</h4>',
 				)
@@ -39,8 +39,8 @@
 			array(
 				'name' => __( 'Footer Widget 2'),
 				'id' => 'footer-widget-2',
-				'before_widget' => '<div class="footer-widget">',
-				'after_widget' => '</div>',
+				'before_widget' => '<div class="col-sm-3><div class="footer-widget">',
+				'after_widget' => '</div></div>',
 				'before_title' => '<h4>',
 				'after_title' => '</h4>',
 				)
@@ -50,8 +50,8 @@
 			array(
 				'name' => __( 'Footer Widget 3'),
 				'id' => 'footer-widget-3',
-				'before_widget' => '<div class="footer-widget">',
-				'after_widget' => '</div>',
+				'before_widget' => '<div class="col-sm-3><div class="footer-widget">',
+				'after_widget' => '</div></div>',
 				'before_title' => '<h4>',
 				'after_title' => '</h4>',
 				)
@@ -60,9 +60,8 @@
 		register_sidebar( 
 			array(
 				'name' => __( 'Footer Widget 4'),
-				'id' => 'footer-widget-4',
-				'before_widget' => '<div class="footer-widget">',
-				'after_widget' => '</div>',
+				'before_widget' => '<div class="col-sm-3><div class="footer-widget">',
+				'after_widget' => '</div></div>',
 				'before_title' => '<h4>',
 				'after_title' => '</h4>',
 				)
