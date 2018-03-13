@@ -9,10 +9,10 @@
 	<body <?php body_class(); ?>>
 	
 	<header class="header fixed-top">
-		<div class="container-fluid top-bar text-right bg-primary">
+		<div class="container-fluid top-bar bg-primary">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-6 text-right ">
 						<p><?php bloginfo('description'); ?></p>
 						
 					</div>
