@@ -12,11 +12,11 @@
 		<div class="container-fluid top-bar bg-primary">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 text-right ">
+					<div class="col-sm-6">
 						<p><?php bloginfo('description'); ?></p>
 						
 					</div>
-					<div class="col-sm-6">
+					<div class="col-sm-6 text-right">
 						<ul class="list-inline">
 							<li class="list-inline-item"><a href="#">Catspaw Cushions</a></li>
 							<li class="list-inline-item"><a href="#">Yoga</a></li>
