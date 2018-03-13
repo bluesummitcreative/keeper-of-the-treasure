@@ -2,37 +2,33 @@
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-3>
-						<?php
-							if ( is_active_sidebar( 'footer-widget-1' ) ) : 
-								dynamic_sidebar( 'footer-widget-1' ); 
-							endif;
-						?>
-					</div>
-					<div class="col-sm-3>
-						<?php
-							if ( is_active_sidebar( 'footer-widget-2' ) ) : 
-								dynamic_sidebar( 'footer-widget-2' ); 
-							endif;
-						?>
-					</div>
-					<div class="col-sm-3>
-						<?php
-							if ( is_active_sidebar( 'footer-widget-3' ) ) : 
-								dynamic_sidebar( 'footer-widget-3' ); 
-							endif;
-						?>
-					</div>
-					<div class="col-sm-3>
-						<?php
-							if ( is_active_sidebar( 'footer-widget-4' ) ) : 
-								dynamic_sidebar( 'footer-widget-4' ); 
-							endif;
-						?>
-					</div>
+					<?php
+						if ( is_active_sidebar( 'footer-widget-1' ) ) : 
+							dynamic_sidebar( 'footer-widget-1' ); 
+						endif;
+					?>
+					
+					<?php
+						if ( is_active_sidebar( 'footer-widget-2' ) ) : 
+							dynamic_sidebar( 'footer-widget-2' ); 
+						endif;
+					?>
+					
+					<?php
+						if ( is_active_sidebar( 'footer-widget-3' ) ) : 
+							dynamic_sidebar( 'footer-widget-3' ); 
+						endif;
+					?>
+					
+					<?php
+						if ( is_active_sidebar( 'footer-widget-4' ) ) : 
+							dynamic_sidebar( 'footer-widget-4' ); 
+						endif;
+					?>
 				</div>
 			</div>
 		</div>
+	</footer>
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row">
@@ -42,8 +38,6 @@
 				</div>
 			</div>
 		</div>
-		
-	</footer>
 	<?php wp_footer(); ?>
 	</body>
 </html>
