@@ -18,8 +18,8 @@
 					</div>
 					<div class="col-sm-6 text-right">
 						<ul class="list-inline">
-							<li class="list-inline-item"><a href="#">Catspaw Cushions</a></li>
-							<li class="list-inline-item"><a href="#">Yoga</a></li>
+							<li class="list-inline-item"><a href="https://catspawcushions.com">Catspaw Cushions</a></li>
+							<li class="list-inline-item"><a href="https://catspawcushions.com/catspaw-yoga-class-schedule/">Yoga</a></li>
 						</ul>
 					</div>
 				</div>
