@@ -10,7 +10,7 @@
 			</div>
 		</div>
 		<?php if( get_field('additional_copy') ): ?>
-		<div class="row">
+		<div class="row additional-home-copy">
 			<div class="col-sm-12">
 				<?php the_field('additional_copy')?>
 			</div>
