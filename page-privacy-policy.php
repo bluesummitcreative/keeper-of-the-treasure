@@ -25,5 +25,6 @@
 	</div>
 </div>
 <?php
+	get_template_part('inc/site-wide-cta');
 	get_footer();
 ?>
