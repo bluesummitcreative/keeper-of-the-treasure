@@ -6,7 +6,7 @@
 				<?php the_field('intro_left_content'); ?>
 			</div>
 			<div class="col-sm-5">
-				<?php the_field('intro_left_content'); ?>
+				<?php the_field('intro_right_content'); ?>
 			</div>
 		</div>
 	</div>
