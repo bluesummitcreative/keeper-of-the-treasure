@@ -6,7 +6,7 @@
 <?php if(has_post_thumbnail()) { ?>
 	<div class="row">
 		<div class="col-sm-12">
-			<?php the_post_thumbnail('medium_large', ['class' => 'img-responsive']);?>
+			<?php the_post_thumbnail('medium_large', ['class' => 'img-fluid']);?>
 		</div>
 	</div>
 <?php } else { ?>
