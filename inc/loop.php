@@ -9,7 +9,15 @@
 			<?php the_post_thumbnail('medium_large', ['class' => 'img-responsive']);?>
 		</div>
 	</div>
-<?php } else {} ?>
+<?php } else { ?>
+<?php if( have_rows('intro_images') ): while ( have_rows('intro_images') ) : the_row(); ?>
+	<div class="row">
+		<div class="col-sm-4">
+			<img src="<?php the_sub_field('image'); ?>" alt="" />
+		</div>
+	</div>
+<?php endwhile; endif; ?>
+<?php } ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php the_content(); ?>
 <?php endwhile; endif; ?>
