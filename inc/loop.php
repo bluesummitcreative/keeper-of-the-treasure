@@ -13,10 +13,8 @@
 <?php if( have_rows('intro_images') ): ?>
 	<div class="row">
 	<?php while ( have_rows('intro_images') ) : the_row(); ?>
-		<div class="col-sm-4">
-			<div class="intro-image">
+		<div class="col-sm-4 intro-image">
 			<img src="<?php the_sub_field('image'); ?>" alt="" class="img-fluid" />
-			</div>
 		</div>
 	<?php endwhile; ?>
 	</div>
