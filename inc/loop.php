@@ -10,13 +10,15 @@
 		</div>
 	</div>
 <?php } else { ?>
-<?php if( have_rows('intro_images') ): while ( have_rows('intro_images') ) : the_row(); ?>
+<?php if( have_rows('intro_images') ): ?>
 	<div class="row">
+	<?php while ( have_rows('intro_images') ) : the_row(); ?>
 		<div class="col-sm-4">
 			<img src="<?php the_sub_field('image'); ?>" alt="" />
 		</div>
+	<?php endwhile; ?>
 	</div>
-<?php endwhile; endif; ?>
+<?php endif; ?>
 <?php } ?>
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <?php the_content(); ?>
