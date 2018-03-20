@@ -14,7 +14,7 @@
 	<div class="row">
 	<?php while ( have_rows('intro_images') ) : the_row(); ?>
 		<div class="col-sm-4">
-			<img src="<?php the_sub_field('image'); ?>" alt="" />
+			<img src="<?php the_sub_field('image'); ?>" alt="" class="image-fluid" />
 		</div>
 	<?php endwhile; ?>
 	</div>
