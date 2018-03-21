@@ -10,7 +10,7 @@
 			<div class="col-sm-12">
 			<?php } ?>
 				<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<p class="blog-post-meta"><span class="author">By <?php the_author(); ?></span> <span class="date">on <?php the_time(); ?></span> | Categories: <span class="categories"><?php the_category(); ?></span></p>
+				<p class="blog-post-meta"><span class="author">By <?php the_author(); ?></span> <span class="date">on <?php the_time(); ?></span> | Categories: <span class="categories"><?php the_category( ', ' ); ?></span></p>
 				<?php the_content(); ?>
 			</div>
 	</div>
