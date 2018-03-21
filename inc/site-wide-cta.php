@@ -16,7 +16,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<h3>Find the Pause</h3>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo nulla, facilisis non molestie ut.
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo nulla, facilisis non molestie ut.</p>
 
 				<a class="btn btn-primary" href="https://catspawcushions.com/shop/">Buy the Journal</a>
 			</div>
