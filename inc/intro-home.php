@@ -11,6 +11,7 @@
 		</div>
 	</div>
 </div>
+<?php endif; ?>
 <?php if( get_field('additional_copy') ): ?>
 <div class="container-fluid container-padding additional-home-copy">
 	<div class="container">
@@ -21,5 +22,4 @@
 		</div>
 	</div>
 </div>
-<?php endif; ?>
 <?php endif; ?>
