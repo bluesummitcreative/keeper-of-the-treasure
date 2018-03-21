@@ -17,5 +17,5 @@
 	
 	<?php wp_link_pages(); ?>
     <?php endwhile; endif; ?>
-    <?php wpex_pagination(); ?>
+		<div class="row text-center"><?php wpex_pagination(); ?></div>
 </div>
