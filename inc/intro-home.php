@@ -16,7 +16,7 @@
 <div class="container-fluid container-padding additional-home-copy">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12">
+			<div class="col-sm-8 offset-sm-2">
 				<?php the_field('additional_copy')?>
 			</div>
 		</div>
