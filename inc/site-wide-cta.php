@@ -15,8 +15,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-12">
-				<h3>Find the Pause</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo nulla, facilisis non molestie ut.</p>
+				<h3>This journal is a journey</h3>
+				<p>Let it help you on your path.</p>
 
 				<a class="btn btn-primary" href="https://catspawcushions.com/shop/">Buy the Journal</a>
 			</div>
