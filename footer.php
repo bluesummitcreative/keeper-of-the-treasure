@@ -2,29 +2,26 @@
 		<div class="container-fluid">
 			<div class="container">
 				<div class="row">
-					<?php
-						if ( is_active_sidebar( 'footer-widget-1' ) ) : 
-							dynamic_sidebar( 'footer-widget-1' ); 
-						endif;
-					?>
-					
-					<?php
-						if ( is_active_sidebar( 'footer-widget-2' ) ) : 
-							dynamic_sidebar( 'footer-widget-2' ); 
-						endif;
-					?>
-					
-					<?php
-						if ( is_active_sidebar( 'footer-widget-3' ) ) : 
-							dynamic_sidebar( 'footer-widget-3' ); 
-						endif;
-					?>
-					
-					<?php
-						if ( is_active_sidebar( 'footer-widget-4' ) ) : 
-							dynamic_sidebar( 'footer-widget-4' ); 
-						endif;
-					?>
+					<?php if ( is_active_sidebar( 'footer-widget-1' ) ) : ?>
+					<div class="col-sm-3">
+						<?php dynamic_sidebar( 'footer-widget-1' ); ?>
+					</div>
+					<?php endif; ?>
+					<?php if ( is_active_sidebar( 'footer-widget-2' ) ) : ?>
+					<div class="col-sm-3">
+						<?php dynamic_sidebar( 'footer-widget-2' ); ?>
+					</div>
+					<?php endif; ?>
+					<?php if ( is_active_sidebar( 'footer-widget-3' ) ) : ?>
+					<div class="col-sm-3">
+						<?php dynamic_sidebar( 'footer-widget-3' ); ?>
+					</div>
+					<?php endif; ?>
+					<?php if ( is_active_sidebar( 'footer-widget-4' ) ) : ?>
+					<div class="col-sm-3">
+						<?php dynamic_sidebar( 'footer-widget-4' ); ?>
+					</div>
+					<?php endif; ?>
 				</div>
 			</div>
 		</div>
